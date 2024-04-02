@@ -51,4 +51,4 @@ function writeResult(data) {
 }
 
 // searchDemand(4); // uncomment to test empty result case
-// searchDemand(5); // uncomment to test a data result
+searchDemand(5); // uncomment to test a data result

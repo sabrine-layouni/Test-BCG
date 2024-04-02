@@ -4,6 +4,9 @@ const app = express();
 const PORT = 3000;
 app.use(cors());
 
+// Serve files from the current directory
+app.use(express.static(__dirname));
+
 app.get("/api/searchDemand", (req, res) => {
   const demandId = req.query.demandId; // get requedt ID
 
